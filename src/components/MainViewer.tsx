@@ -3,7 +3,6 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { STLLoader } from "three/examples/jsm/loaders/STLLoader.js";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import ViewerControls from "./ViewerControls";
 import { setupDistanceTool } from "../tools/DistanceTool";
 import { setupAngleTool } from "../tools/AngleTool";
