@@ -56,5 +56,6 @@ export function setupClippingPlaneTool(
     dispose,
     setAxis,
     move,
+    isEnabled: () => isEnabled
   };
 } 
