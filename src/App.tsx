@@ -7,7 +7,7 @@ interface ModelOption {
   url: string;
 }
 
-const MODELS_PATH = '/models/';
+const MODELS_PATH = `${import.meta.env.BASE_URL}models/`;
 
 const App: React.FC = () => {
   const [file, setFile] = useState<File | null>(null);
